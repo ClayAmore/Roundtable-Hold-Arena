@@ -1,0 +1,1 @@
+.\ModEngine\modengine2_launcher.exe -t er -c .\ModEngine\config_eldenring.toml
