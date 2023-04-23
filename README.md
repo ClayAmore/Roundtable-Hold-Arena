@@ -13,7 +13,7 @@ This mod offers a better dueling experience in a custom-made arena that is easil
 ## Installation
 1. Download the mod from the 'Download' tab.
 2. Extract the package you downloaded anywhere you want.
-3. This mod relies on the Seamless Coop mod. You can get Seamless Coop from their mod page or from their GitHub mirror.
+3. This mod relies on the Seamless Coop mod. You can get Seamless Coop from their [mod page](https://www.nexusmods.com/eldenring/mods/510) or from their [GitHub mirror](https://github.com/LukeYui/EldenRingSeamlessCoopRelease/releases).
 4. Edit "seamlesscoopsettings.ini" to your chosen co-op password.
 5. Launch the mod using RoundtableHoldArenaLaunch.exe.
 
