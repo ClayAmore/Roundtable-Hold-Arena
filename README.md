@@ -12,7 +12,7 @@ This mod offers a better dueling experience in a custom-made arena that is easil
 * Three dueling arenas side by side for faster duels with reduced downtime. 
 
 ## Requirments
-This mod relies on the Seamless Coop mod. You can get Seamless Coop from their [mod page](https://www.nexusmods.com/eldenring/mods/510) or from their [GitHub mirror](https://github.com/LukeYui/EldenRingSeamlessCoopRelease/releases). Make sure to follow the installation guide.
+This mod relies on the Seamless Coop mod. You can get Seamless Coop from their [mod page](https://www.nexusmods.com/eldenring/mods/510) or from their [GitHub mirror](https://github.com/LukeYui/EldenRingSeamlessCoopRelease/releases). Make sure to follow the seamless installation guide.
 
 ## Installation
 1. Download the mod from the 'Download' tab.
