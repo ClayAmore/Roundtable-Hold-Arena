@@ -1,5 +1,6 @@
 # Roundtable-Hold-Arena
 <img src="https://staticdelivery.nexusmods.com/mods/4333/images/3402/3402-1682201929-661650216.png"/>
+
 ## About
 This mod offers a better dueling experience in a custom-made arena that is easily accessible from The Roundtable Hold. It works with the Seamless Coop mod, so there's no risk of getting banned as Seamless prevents you from connecting to FromSoftware's matchmaking servers.
 
