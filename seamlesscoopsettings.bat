@@ -1,0 +1,1 @@
+..\SeamlessCoop\seamlesscoopsettings.ini
