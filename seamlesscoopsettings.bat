@@ -1,1 +1,0 @@
-.\ModEngine\seamlesscoopsettings.ini
