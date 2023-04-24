@@ -11,10 +11,12 @@ This mod offers a better dueling experience in a custom-made arena that is easil
 * Better viewing experience using the arenas telescope.
 * Three dueling arenas side by side for faster duels with reduced downtime. 
 
+## Requirments
+This mod relies on the Seamless Coop mod. You can get Seamless Coop from their [mod page](https://www.nexusmods.com/eldenring/mods/510) or from their [GitHub mirror](https://github.com/LukeYui/EldenRingSeamlessCoopRelease/releases). Make sure to follow the seamless installation guide.
+
 ## Installation
 1. Download the mod from the 'Download' tab.
-2. Extract the package you downloaded anywhere you want.
-3. This mod relies on the Seamless Coop mod. You can get Seamless Coop from their [mod page](https://www.nexusmods.com/eldenring/mods/510) or from their [GitHub mirror](https://github.com/LukeYui/EldenRingSeamlessCoopRelease/releases).
+2. Extract the package you downloaded and place the `Roundtable.Hold.Arena.0.98.beta` folder in the Elden Ring game folder.
 4. Edit "seamlesscoopsettings.ini" to your chosen co-op password.
 5. Launch the mod using RoundtableHoldArenaLaunch.exe.
 
