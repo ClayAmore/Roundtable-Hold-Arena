@@ -17,8 +17,8 @@ This mod relies on the Seamless Coop mod. You can get Seamless Coop from their [
 ## Installation
 1. Download the mod from the 'Download' tab.
 2. Extract the package you downloaded and place the `Roundtable.Hold.Arena.0.98.beta` folder in the Elden Ring game folder.
-4. Edit "seamlesscoopsettings.ini" to your chosen co-op password.
-5. Launch the mod using RoundtableHoldArenaLaunch.exe.
+4. Edit `seamlesscoopsettings` to your chosen co-op password.
+5. Launch the mod using `RoundtableHoldArenaLaunch.exe`.
 
 ## Credits
 This mod would not have been possible without the amazing work of LukeYui and his Seamless Coop mod. A big thanks to the Grandmerchant maker for allowing me to use some of their code for the Lilbro merchant. Also, thanks to tremwil for guiding me through some of the more challenging parts of this mod. And, of course, thanks to everyone who created the modding tools for Elden Ring!
