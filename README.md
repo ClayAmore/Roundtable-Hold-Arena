@@ -5,21 +5,22 @@ This mod relies on the Seamless Coop mod. You can get Seamless Coop from their [
 
 ## Installation
 1. Download the latest mod [Release](https://github.com/ClayAmore/Roundtable-Hold-Arena/releases).
-2. Extract the package you downloaded and place the `Roundtable.Hold.Arena.0.98.beta` folder in the Elden Ring game folder.
+2. Extract the package you downloaded and place in anywhere you want.
+3. Place the SeamlessCoop folder from Seamless Coop 1.5.1 in the "_PLACE_SEAMLESS_COOP_151_HERE_" folder.
 4. Edit `seamlesscoopsettings` to your chosen co-op password.
 5. Launch the mod using `RoundtableHoldArenaLaunch.exe`.
 
-<img src="https://staticdelivery.nexusmods.com/mods/4333/images/3402/3402-1682201929-661650216.png"/>
+<img src="![image](https://github.com/ClayAmore/Roundtable-Hold-Arena/assets/131625063/01dea93d-997b-4d5e-81cf-52bc6637d8c7)"/>
 
 ## About
 This mod offers a better dueling experience in a custom-made arena that is easily accessible from The Roundtable Hold. It works with the Seamless Coop mod, so there's no risk of getting banned as Seamless prevents you from connecting to FromSoftware's matchmaking servers.
 
 ## Features
-* Items that activates auto revive and unlimited item use.
+* Items that activates auto-revive, unlimited item use and free cam item.
+* Team fight mode.
 * Lilbro Merchant where you can buy every item, weapon, armor in the game for free.
 * You can edit your stats with rebirth and strengthen your newly bought weapons.
-* Better viewing experience using the arenas telescope.
 * Three dueling arenas side by side for faster duels with reduced downtime. 
 
 ## Credits
-This mod would not have been possible without the amazing work of LukeYui and his Seamless Coop mod. A big thanks to the Grandmerchant maker for allowing me to use some of their code for the Lilbro merchant. Also, thanks to tremwil for guiding me through some of the more challenging parts of this mod. And, of course, thanks to everyone who created the modding tools for Elden Ring!
+I want to express my sincere thanks to the following individuals for their valuable contributions to the Elden Ring Roundtable Hold Arena mod. tremwil, your assistance in setting up the core functionality of the mod, enabling advanced features, has been greatly appreciated. Dasaav, I am grateful for your help in tackling tasks that surpassed my capabilities. A big thank you to Saikrai for dedicatedly testing the mod, ensuring its stability through extensive testing. I am also thankful to LukeYui for developing the Seamless Coop mod, allowing secure mod online interactions. Lastly, I would like to thank Vawser for generously permitting the use of some of their code for the Lilbro merchant.
