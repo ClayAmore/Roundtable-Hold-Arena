@@ -10,7 +10,7 @@ This mod relies on the Seamless Coop mod. You can get Seamless Coop from their [
 4. Edit `seamlesscoopsettings` to your chosen co-op password.
 5. Launch the mod using `RoundtableHoldArenaLaunch.exe`.
 
-<img src="![image](https://github.com/ClayAmore/Roundtable-Hold-Arena/assets/131625063/01dea93d-997b-4d5e-81cf-52bc6637d8c7)"/>
+<img src=""/>
 
 ## About
 This mod offers a better dueling experience in a custom-made arena that is easily accessible from The Roundtable Hold. It works with the Seamless Coop mod, so there's no risk of getting banned as Seamless prevents you from connecting to FromSoftware's matchmaking servers.
