@@ -23,28 +23,28 @@ This mod offers a better dueling experience in a custom-made arena that is easil
 * Three dueling arenas side by side for faster duels with reduced downtime.
 
 ## FAQ
-**Q:** There's Seamless error that's preventing me from running the mod properly?
+**Q:** There's Seamless error that's preventing me from running the mod properly?<br/>
 **A:** Please check Seamless nexusmod page for all Seamless related errors.
 
-**Q:** I am having trouble using my controller?
+**Q:** I am having trouble using my controller?<br/>
 **A:** Check if you have reshade installed. The roundtbale hold overlay is not compatible with Reshade.
 
-**Q:** I am having trouble opening steam overlay?
+**Q:** I am having trouble opening steam overlay?<br/>
 **A:** Check if you have reshade installed. The roundtbale hold overlay is not compatible with Reshade.
 
-**Q:** I don't see the score overlay when I'm playing arena matches?
+**Q:** I don't see the score overlay when I'm playing arena matches?<br/>
 **A:** Please check if you have HUD set to ON in your game settings. Overlay won't be visible if you have your HUD is set to OFF or AUTO.
 
-**Q:** How do you track kills in Arena matches?
+**Q:** How do you track kills in Arena matches?<br/>
 **A:** Kills are based on who hit you last. This means that if you hit someone then they die after 5 minutes without anyone else hitting them then you'll be credited with the kill.
 
-**Q:** Why do I have -1 kills. Is this a bug?
+**Q:** Why do I have -1 kills. Is this a bug?<br/>
 **A:** If you die in a brawl without getting hit a single time, then your kills will be subtracted to keep things balanced and prevent people from spawn killing themselves on purpose to avoid losing.
 
-**Q:** What is the overlay showing in Brawl matches?
+**Q:** What is the overlay showing in Brawl matches?<br/>
 **A:** Overlay right side shows how many kills you have and the left shows how many kills the leading player has.
 
-**Q:** I can't leave the portal arena without warping out even when I'm not in an active Arena match. 
+**Q:** I can't leave the portal arena without warping out even when I'm not in an active Arena match. <br/>
 **A:** You can go through portal without teleporting by using torrent(horse). 
 
 ## Credits
