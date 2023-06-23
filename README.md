@@ -36,7 +36,7 @@ This mod offers a better dueling experience in a custom-made arena that is easil
 **Q:** I don't see the score overlay when I'm playing arena matches?<br/>
 **A:** Please check if you have HUD set to ON in your game settings. Overlay won't be visible if you have your HUD is set to OFF or AUTO.
 
-**Q:** How do I get out of freecam mode after using **The Devouring Gaze**?
+**Q:** How do I get out of freecam mode after using **The Devouring Gaze**?<br/>
 **A:** Crouch to get out freecam mode.
 
 **Q:** How do you track kills in Arena matches?<br/>
