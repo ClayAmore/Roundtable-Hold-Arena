@@ -50,11 +50,11 @@ This mod offers a better dueling experience in a custom-made arena that is easil
 ## Credits
 I would like to express my sincere thanks to the following individuals for their invaluable contributions to the Elden Ring Roundtable Hold Arena mod:
 
-**tremwil:** Thank you for helping me set up the core functionality that enabled the advanced features.
-**Nordgaren:** Thank you for your assistance with reverse engineering, which greatly aided in implementing necessary changes.
-**Dasaav:** I am grateful for your assistance with tasks that surpassed my capabilities.
-**Saikrai:** Thank you for dedicatedly testing the mod and ensuring its stability through extensive testing.
-**LukeYui:** I appreciate your development of the Seamless Coop mod, allowing secure mod online interactions.
-**Vawser:** Thank you for generously permitting the use of some of your code for the Lilbro merchant.
+**tremwil:** Thank you for helping me set up the core functionality that enabled the advanced features.<br/>
+**Nordgaren:** Thank you for your assistance with reverse engineering, which greatly aided in implementing necessary changes.<br/>
+**Dasaav:** I am grateful for your assistance with tasks that surpassed my capabilities.<br/>
+**Saikrai:** Thank you for dedicatedly testing the mod and ensuring its stability through extensive testing.<br/>
+**LukeYui:** I appreciate your development of the Seamless Coop mod, allowing secure mod online interactions.<br/>
+**Vawser:** Thank you for generously permitting the use of some of your code for the Lilbro merchant.<br/>
 
 To all of you, I am truly grateful for your expertise and contributions. The Elden Ring Roundtable Hold Arena mod wouldn't have been possible without your support.
