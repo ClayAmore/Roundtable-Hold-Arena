@@ -17,10 +17,44 @@ This mod offers a better dueling experience in a custom-made arena that is easil
 
 ## Features
 * Items that activates auto-revive, unlimited item use and free cam item.
-* Team fight mode.
+* Team fight and Brawl mode.
 * Lilbro Merchant where you can buy every item, weapon, armor in the game for free.
 * You can edit your stats with rebirth and strengthen your newly bought weapons.
-* Three dueling arenas side by side for faster duels with reduced downtime. 
+* Three dueling arenas side by side for faster duels with reduced downtime.
+
+## FAQ
+**Q:** There's Seamless error that's preventing me from running the mod properly?
+**A:** Please check Seamless nexusmod page for all Seamless related errors.
+
+**Q:** I am having trouble using my controller?
+**A:** Check if you have reshade installed. The roundtbale hold overlay is not compatible with Reshade.
+
+**Q:** I am having trouble opening steam overlay?
+**A:** Check if you have reshade installed. The roundtbale hold overlay is not compatible with Reshade.
+
+**Q:** I don't see the score overlay when I'm playing arena matches?
+**A:** Please check if you have HUD set to ON in your game settings. Overlay won't be visible if you have your HUD is set to OFF or AUTO.
+
+**Q:** How do you track kills in Arena matches?
+**A:** Kills are based on who hit you last. This means that if you hit someone then they die after 5 minutes without anyone else hitting them then you'll be credited with the kill.
+
+**Q:** Why do I have -1 kills. Is this a bug?
+**A:** If you die in a brawl without getting hit a single time, then your kills will be subtracted to keep things balanced and prevent people from spawn killing themselves on purpose to avoid losing.
+
+**Q:** What is the overlay showing in Brawl matches?
+**A:** Overlay right side shows how many kills you have and the left shows how many kills the leading player has.
+
+**Q:** I can't leave the portal arena without warping out even when I'm not in an active Arena match. 
+**A:** You can go through portal without teleporting by using torrent(horse). 
 
 ## Credits
-I want to express my sincere thanks to the following individuals for their valuable contributions to the Elden Ring Roundtable Hold Arena mod. tremwil, your assistance in setting up the core functionality of the mod, enabling advanced features, has been greatly appreciated. Dasaav, I am grateful for your help in tackling tasks that surpassed my capabilities. A big thank you to Saikrai for dedicatedly testing the mod, ensuring its stability through extensive testing. I am also thankful to LukeYui for developing the Seamless Coop mod, allowing secure mod online interactions. Lastly, I would like to thank Vawser for generously permitting the use of some of their code for the Lilbro merchant.
+I would like to express my sincere thanks to the following individuals for their invaluable contributions to the Elden Ring Roundtable Hold Arena mod:
+
+**tremwil:** Thank you for helping me set up the core functionality that enabled the advanced features.
+**Nordgaren:** Thank you for your assistance with reverse engineering, which greatly aided in implementing necessary changes.
+**Dasaav:** I am grateful for your assistance with tasks that surpassed my capabilities.
+**Saikrai:** Thank you for dedicatedly testing the mod and ensuring its stability through extensive testing.
+**LukeYui:** I appreciate your development of the Seamless Coop mod, allowing secure mod online interactions.
+**Vawser:** Thank you for generously permitting the use of some of your code for the Lilbro merchant.
+
+To all of you, I am truly grateful for your expertise and contributions. The Elden Ring Roundtable Hold Arena mod wouldn't have been possible without your support.
