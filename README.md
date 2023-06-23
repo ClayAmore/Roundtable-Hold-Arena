@@ -36,6 +36,9 @@ This mod offers a better dueling experience in a custom-made arena that is easil
 **Q:** I don't see the score overlay when I'm playing arena matches?<br/>
 **A:** Please check if you have HUD set to ON in your game settings. Overlay won't be visible if you have your HUD is set to OFF or AUTO.
 
+**Q:** How do I get out of freecam mode after using **The Devouring Gaze**?
+**A:** Crouch to get out freecam mode.
+
 **Q:** How do you track kills in Arena matches?<br/>
 **A:** Kills are based on who hit you last. This means that if you hit someone then they die after 5 minutes without anyone else hitting them then you'll be credited with the kill.
 
