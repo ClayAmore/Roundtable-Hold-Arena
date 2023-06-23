@@ -4,6 +4,7 @@
 This mod relies on the Seamless Coop mod. You can get Seamless Coop from their [mod page](https://www.nexusmods.com/eldenring/mods/510) or from their [GitHub mirror](https://github.com/LukeYui/EldenRingSeamlessCoopRelease/releases). Make sure to follow the seamless installation guide.
 
 ## Installation
+You can watch this video https://youtu.be/IY84wA3ejoM or follow the steps provided:
 1. Download the latest mod [Release](https://github.com/ClayAmore/Roundtable-Hold-Arena/releases).
 2. Extract the package you downloaded and place in anywhere you want.
 3. Place the SeamlessCoop folder from Seamless Coop 1.5.1 in the "_PLACE_SEAMLESS_COOP_151_HERE_" folder.
