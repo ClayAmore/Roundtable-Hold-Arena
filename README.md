@@ -24,8 +24,8 @@ This mod offers a better dueling experience in a custom-made arena that is easil
 * Three dueling arenas side by side for faster duels with reduced downtime.
 
 ## FAQ
-**Q:** There's Seamless error that's preventing me from running the mod properly?<br/>
-**A:** Please check Seamless nexusmod page for all Seamless related errors.
+**Q:** I am getting a **seamlesscoop\locale not found which has no fallback** error message?<br/>
+**A:** Place a copy of your SeamlessCoop folder in your game direcroty. Check Seamelss mod description page for detailed installation instructions.
 
 **Q:** I am having trouble using my controller?<br/>
 **A:** Check if you have reshade installed. The roundtbale hold overlay is not compatible with Reshade.
