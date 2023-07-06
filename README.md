@@ -27,7 +27,7 @@ This mod offers a better dueling experience in a custom-made arena that is easil
 **Q:** I am getting a **seamlesscoop\locale not found which has no fallback** error message?<br/>
 **A:** Place a copy of your SeamlessCoop folder in your game directory. Check Seamelss mod description page for detailed installation instructions.
 
-**Q:** How do I enter the arena?
+**Q:** How do I enter the arena?<br/>
 **A:** Use the shadowmeld shard in your inventory to clip through the wall into the areana.
 
 **Q:** I am having trouble using my controller?<br/>
