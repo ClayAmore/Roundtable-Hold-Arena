@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{5eb93c8a-65bb-403d-a8b5-a39fcf98f17f}</ProjectGuid>
+    <RootNamespace>RoundtableHoldArena</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>RoundtableHoldArena</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.props" />
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <TargetName>dinput8</TargetName>
+    <IncludePath>C:\Programming\Github repositories\RoundtableHoldArena\overlays;C:\Programming\Github repositories\RoundtableHoldArena\include;$(IncludePath)</IncludePath>
+    <SourcePath>C:\Programming\Github repositories\RoundtableHoldArena\overlays;C:\Programming\Github repositories\RoundtableHoldArena\src</SourcePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <TargetName>dinput8</TargetName>
+    <IncludePath>C:\Programming\Github repositories\RoundtableHoldArena\overlays;C:\Programming\Github repositories\RoundtableHoldArena\include;$(IncludePath)</IncludePath>
+    <SourcePath>C:\Programming\Github repositories\RoundtableHoldArena\overlays;C:\Programming\Github repositories\RoundtableHoldArena\src</SourcePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(ProjectDir)RoundtableHoldArena;$(ProjectDir)third_party;$(ProjectDir)include;$(ProjectDir);$(ProjectDir)utils;$(ProjectDir)param;$(ProjectDir)RoundtableHoldArena/p2p</IncludePath>
+    <SourcePath>C:\ModdingTools\RoundtableHoldArena\src</SourcePath>
+    <TargetName>RoundTableHoldArena</TargetName>
+    <PostBuildEventUseInBuild>true</PostBuildEventUseInBuild>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(ProjectDir)RoundtableHoldArena;$(ProjectDir)third_party;$(ProjectDir)include;$(ProjectDir);$(ProjectDir)utils;$(ProjectDir)param;$(ProjectDir)RoundtableHoldArena/p2p</IncludePath>
+    <SourcePath>C:\ModdingTools\RoundtableHoldArena\src</SourcePath>
+    <TargetExt>.dll</TargetExt>
+    <TargetName>RoundTableHoldArena</TargetName>
+    <PostBuildEventUseInBuild>true</PostBuildEventUseInBuild>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions);_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ModuleDefinitionFile>$(ProjectDir)src\DirectXHook.def</ModuleDefinitionFile>
+      <AdditionalDependencies>d3d11.lib;d3d12.lib;d3dcompiler.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>COPY "C:\Programming\Github repositories\RoundtableHoldArena\x64\Release\dinput8.dll" "G:\SteamLibrary\steamapps\common\MonsterHunterRise\reframework\plugins\RiseDpsMeter.dll"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING;NDEBUG;_CONSOLE</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <ModuleDefinitionFile>$(ProjectDir)src\DirectXHook.def</ModuleDefinitionFile>
+      <AdditionalDependencies>d3d11.lib;d3d12.lib;d3dcompiler.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>COPY "C:\Programming\Github repositories\RoundtableHoldArena\x64\Release\dinput8.dll" "G:\SteamLibrary\steamapps\common\MonsterHunterRise\reframework\plugins\RiseDpsMeter.dll"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ModuleDefinitionFile>$(ProjectDir)src\DirectXHook.def</ModuleDefinitionFile>
+      <AdditionalDependencies>d3d11.lib;d3d12.lib;d3dcompiler.lib;$(ProjectDir)third_party/steam/steam_api64.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy /Y "$(TargetDir)$(TargetName).dll" "$(MSBuildProgramFiles32)\Steam\steamapps\common\ELDEN RING\Game\mods\RoundtableHoldArena\$(TargetName).dll"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <ShowIncludes>false</ShowIncludes>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <ModuleDefinitionFile>$(ProjectDir)src\DirectXHook.def</ModuleDefinitionFile>
+      <AdditionalDependencies>d3d11.lib;d3d12.lib;d3dcompiler.lib;$(ProjectDir)third_party/steam/steam_api64.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy /Y "$(TargetDir)$(TargetName).dll" "$(MSBuildProgramFiles32)\Steam\steamapps\common\ELDEN RING\Game\mods\RoundtableHoldArena\$(TargetName).dll"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="src\DirectXHook.def" />
+    <MASM Include="src\Jump.asm">
+      <FileType>Document</FileType>
+    </MASM>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="minhook\src\buffer.c" />
+    <ClCompile Include="minhook\src\hook.c" />
+    <ClCompile Include="minhook\src\trampoline.c" />
+    <ClCompile Include="RoundtableHoldArena\p2p\game\BrawlManager.cpp" />
+    <ClCompile Include="RoundtableHoldArena\p2p\game\TeamFightManager.cpp" />
+    <ClCompile Include="RoundtableHoldArena\p2p\P2PLobby.cpp" />
+    <ClCompile Include="RoundtableHoldArena\p2p\core\SteamInterfaceProvider.cpp" />
+    <ClCompile Include="RoundtableHoldArena\RoundtableHoldArena.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="third_party\inih\ini.c" />
+    <ClCompile Include="third_party\inih\INIReader.cpp" />
+    <ClCompile Include="third_party\SigScan\SigScan.cpp" />
+    <ClCompile Include="src\DirectXHook.cpp" />
+    <ClCompile Include="src\DllMain.cpp" />
+    <ClCompile Include="src\Renderer.cpp" />
+    <ClCompile Include="third_party\hde\hde64.c" />
+    <ClCompile Include="third_party\vector3\Vector3.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="src\Shaders.hlsl">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Death.h" />
+    <ClInclude Include="include\Event.h" />
+    <ClInclude Include="include\File.h" />
+    <ClInclude Include="include\Menu.h" />
+    <ClInclude Include="include\Settings.h" />
+    <ClInclude Include="include\Souls.h" />
+    <ClInclude Include="include\Bullet.h" />
+    <ClInclude Include="include\Camera.h" />
+    <ClInclude Include="include\Global.h" />
+    <ClInclude Include="include\RoundtableHoldArena.h" />
+    <ClInclude Include="include\Damage.h" />
+    <ClInclude Include="include\HookSetup.h" />
+    <ClInclude Include="include\ID3DRenderer.h" />
+    <ClInclude Include="include\IRenderCallback.h" />
+    <ClInclude Include="include\Item.h" />
+    <ClInclude Include="include\Logger.h" />
+    <ClInclude Include="include\PE.h" />
+    <ClInclude Include="include\Player.h" />
+    <ClInclude Include="include\MemoryUtils.h" />
+    <ClInclude Include="include\OverlayFramework.h" />
+    <ClInclude Include="include\Pointer.h" />
+    <ClInclude Include="include\PointerChain.h" />
+    <ClInclude Include="include\Renderer.h" />
+    <ClInclude Include="include\RTTIScanner.h" />
+    <ClInclude Include="include\Seamless.h" />
+    <ClInclude Include="include\SigScan.h" />
+    <ClInclude Include="include\SPEffect.h" />
+    <ClInclude Include="include\team_fight.h" />
+    <ClInclude Include="include\Timer.h" />
+    <ClInclude Include="include\VFTHook.h" />
+    <ClInclude Include="include\VxD.h" />
+    <ClInclude Include="include\Warp.h" />
+    <ClInclude Include="minhook\include\MinHook.h" />
+    <ClInclude Include="minhook\src\buffer.h" />
+    <ClInclude Include="minhook\src\trampoline.h" />
+    <ClInclude Include="param\EquipMtrlSetParam.h" />
+    <ClInclude Include="param\EquipParamGoods.h" />
+    <ClInclude Include="RoundtableHoldArena\p2p\data\P2PLobbyData.h" />
+    <ClInclude Include="RoundtableHoldArena\p2p\game\BrawlManager.h" />
+    <ClInclude Include="RoundtableHoldArena\p2p\game\TeamFightManager.h" />
+    <ClInclude Include="RoundtableHoldArena\p2p\P2PLobby.h" />
+    <ClInclude Include="RoundtableHoldArena\p2p\core\SteamInterfaceProvider.h" />
+    <ClInclude Include="RoundtableHoldArena\RoundtableHoldArena.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="third_party\hde\hde64.h" />
+    <ClInclude Include="third_party\inih\ini.h" />
+    <ClInclude Include="third_party\inih\INIReader.h" />
+    <ClInclude Include="third_party\nlohmann.json\json.hpp" />
+    <ClInclude Include="third_party\vector3\Vector3.hpp" />
+    <ClInclude Include="include\ParamEditor.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="third_party\steam\steam_api64.lib" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="packages\Microsoft.XAudio2.Redist.1.2.8\build\native\Microsoft.XAudio2.Redist.targets" Condition="Exists('packages\Microsoft.XAudio2.Redist.1.2.8\build\native\Microsoft.XAudio2.Redist.targets')" />
+    <Import Project="packages\directxtk_desktop_2017.2020.11.12.1\build\native\directxtk_desktop_2017.targets" Condition="Exists('packages\directxtk_desktop_2017.2020.11.12.1\build\native\directxtk_desktop_2017.targets')" />
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.targets" />
+  </ImportGroup>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\Microsoft.XAudio2.Redist.1.2.8\build\native\Microsoft.XAudio2.Redist.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Microsoft.XAudio2.Redist.1.2.8\build\native\Microsoft.XAudio2.Redist.targets'))" />
+    <Error Condition="!Exists('packages\directxtk_desktop_2017.2020.11.12.1\build\native\directxtk_desktop_2017.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\directxtk_desktop_2017.2020.11.12.1\build\native\directxtk_desktop_2017.targets'))" />
+  </Target>
+</Project>
